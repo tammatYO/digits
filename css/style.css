@@ -94,6 +94,33 @@ html {
     text-align: center;
     color: #1E266D;
 }
+.section_title2 {
+    margin:auto;
+    font-family:"Halyard Text Regular" sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    color: #1E266D;
+}
+.section_title3 {
+    margin:auto;
+    font-family:"Halyard Text Regular" sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    color: #1E266D;
+}
+.section_title4 {
+    margin:auto;
+    font-family:"Halyard Text Regular" sans-serif !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    color: #1E266D;
+}
 .digits_text{
     font-family:"Halyard Text Regular" sans-serif !important;
     font-style: normal;
@@ -415,3 +442,187 @@ html {
     text-decoration: none;
     padding-right: 22px;
 }
+.button--primary:hover, .button--primary1:hover {
+    transform: scale(1.05);
+    filter: hue-rotate(-30deg);
+    transition-duration: 1s;
+}
+.menu_button:hover, .footer_menu:hover {
+    color: rgb(97, 144, 189);
+    filter: drop-shadow(0 5px 3px rgb(0, 0, 0));
+    transition-duration: 0.5s;
+}
+
+/*ipad pro*/
+@media (max-width: 1024px) {
+    .logo__img {
+        margin-left: 40px;
+    }
+    .navigation_header {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .button_header {
+        margin-left: -5px;
+    }
+    .section_title {
+        margin-left: 250px;
+        margin-top: -50px;
+    }
+    .digits_text {
+        margin-left: -600px;
+    }
+    .buttons_digits {
+        margin-left: 350px;
+        padding-bottom: 0;
+    }
+    .digits_img {
+        display: none;
+    }
+    .grey_text {
+        margin-top: 20px;
+        margin-left: 300px;
+        margin-bottom: 20px;
+    }
+    .company_block {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+        margin-left: 40px;
+    }
+    .company_img {
+        margin-bottom: 40px;
+
+    }
+    .section_title {
+        margin-left: 200px;
+        margin-bottom: 40px;
+    }
+    .people_image {
+        display: none;
+    }
+    .icon {
+        margin-left: -900px;
+    }
+    .people_title {
+        margin-left: 150px;
+    }
+    .people_text_block {
+        margin-left: 300px;
+    }
+    .people_text {
+        margin-left: 150px;
+    }
+    .st2 {
+        max-width: 1024px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .button_design {
+        margin-left: 425px;
+    }
+    .design_text {
+        margin-left: 0px;
+    }
+    .design_img {
+        display: none;
+    }
+    .reviews_title {
+        max-width: 1024px;
+        padding-top: 100px;
+        margin-left: -100px; 
+    }
+    .others {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 70px;
+        margin-right: 70px;
+
+    }
+    .reviews_block {
+        margin-bottom: 30px;
+    }
+    .intouch_title {
+        margin-left: -100px;
+    }
+    .launch_submit {
+        margin-left: 200px;
+    }
+    .footer_column1 {
+        display: none;
+    }
+    .footer_top {
+        max-width: 1024px;
+        padding-right: 10px;
+    }
+}
+
+/*ipad*/
+@media (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+    .block_header {
+        margin-left: 20px;
+    }
+    .section_title {
+        margin-left: 100px;
+    }
+    .digits_text {
+        margin-right: 200px;
+    }
+    .grey_text {
+        margin-left: 200px;
+    }
+    .people_text_block {
+        margin-left: 100px;
+    }
+    .button_design {
+        margin-left: 310px;
+    }
+    .footer_top {
+        margin-left: -100px;
+    }
+}
+
+/*iphone*/
+@media (max-width: 375px) {
+    .navigation_header {
+        flex-wrap: wrap;
+    }
+    .people_text_block {
+        margin-left: -80px;
+    }
+    .section_title {
+        margin-left: 0;
+        max-width: 375px;
+    }
+    .section_title4 {
+        max-width: 375px;
+        margin-left: 100px;
+    }
+    .digits_text {
+        max-width: 375px;
+        margin-left: -210px;
+    }
+    .grey_text {
+        margin-left: 0;
+        text-align: center;
+    }
+    .buttons_digits {
+        margin-left: 5px;
+    }
+    .button_design {
+        margin-left: 120px;
+    }
+    .footer_top {
+        flex-wrap: wrap;
+    }
+    .intouch_title {
+        display: none;
+    }
+    .launch_text {
+        margin-left: -300px;
+    }
+}
+
